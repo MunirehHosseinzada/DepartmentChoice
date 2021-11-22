@@ -1,0 +1,88 @@
+"#holeView": {
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL,
+	layout: 'vertical',
+	backgroundColor: '#e6e6e6'
+}
+
+"#titleView": {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	// backgroundColor: 'red',
+	top: '30dp'	
+}
+
+"#title": {
+	font: {
+		fontSize: '20dp'
+	},
+	color: '#4a4a4a'
+}
+
+"#inputsContainer": {
+	height: Ti.UI.SIZE,
+	width: '80%',
+	// backgroundColor: 'green',
+	top: '20dp',
+	layout: 'vertical'
+}
+
+".inputs": {
+	backgroundColor: 'white',
+	height: '35dp',
+	width: '100%',
+	borderRadius: '30dp',
+	hintTextColor: '#bab5b5',
+	textAlign: 'right',
+	font: {
+		fontSize: '13dp'
+	},
+	color: '#636363',
+	borderColor: '#cccccc',
+	borderWidth: '1px'
+}
+
+"#email": {
+	hintText: 'ایمیل',
+	
+}
+
+"#password": {
+	hintText: 'رمز ورود',
+	top: '5dp',
+	passwordMask: true
+}
+
+"#sidnInLbl": {
+	font: {
+		fontSize: '18dp'
+	},
+	color: 'white'
+}
+
+"#signInBtn": {
+	height: '30dp',
+	width: '80%',
+	backgroundColor: "#51c947",
+	borderRadius: '30dp',
+	top: '20dp'
+}
+
+"#footerView": {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	layout: 'vertical',
+	top: '30dp'
+}
+
+"#askLbl": {
+	color: '#a39e9e',
+	font: {
+		fontSize: '13dp'
+	}
+}
+
+"#signUpLbl": {
+	color: '#34d1c9',
+	top: '4dp'
+}

@@ -1,0 +1,33 @@
+<Alloy>
+	<Window title="انخاب استاد راهنما" orientationModes="[Ti.UI.PORTRAIT]">
+		<View id="holeView">
+			<View id="titleView">
+				<Label id="title">ثبت نام</Label>
+			</View>
+			<View id="inputsContainer">
+				<TextField id="firstName" class="inputs"></TextField>
+				<TextField id="lastName" class="inputs"></TextField>
+				<TextField id="email" class="inputs"></TextField>
+				<TextField id="password" class="inputs"></TextField>
+				<TextField id="password_confirmation" class="inputs"></TextField>
+				<View id="departmentContainer">
+					<View class="innerDcontainers" onClick="netClicked">
+						<Label class="dlbls">نتورک</Label>
+						<View class="chiz" id="chizOne"></View>
+					</View>
+					<View class="innerDcontainers" onClick="softClicked">
+						<Label class="dlbls">ُسافت ویر</Label>
+						<View class="chiz" id="chizTwo"></View>
+					</View>
+					<View class="innerDcontainers" onClick="dataClicked">
+						<Label class="dlbls">دیتابیس</Label>
+						<View class="chiz" id="chizThree"></View>
+					</View>
+				</View>
+			</View>
+			<View id="signUpBtn" onClick="createUser">
+				<Label id="signUpLbl">ایجاد</Label>
+			</View>
+		</View>
+	</Window>
+</Alloy>

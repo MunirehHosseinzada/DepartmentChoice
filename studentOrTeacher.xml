@@ -1,0 +1,13 @@
+<Alloy>
+	<Window title="نتخاب استاد راهنما" orientationModes="Ti.UI.PORTRAIT">
+		<View id="holeView">
+			<View id="middleView">
+				<Label id="lbl">ثبت نام به عنوان استاد یا محصل؟</Label>
+				<View id="btnContainer">
+					<Button id="teacherBtn" class="btns" onClick="teacherForm">استاد</Button>
+					<Button id="studentBtn" class="btns" onClick="studentForm">محصل</Button>
+				</View>
+			</View>
+		</View>
+	</Window>
+</Alloy>

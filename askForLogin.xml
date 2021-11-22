@@ -1,0 +1,20 @@
+<Alloy>
+	<Window title="انتخاب استاد راهنما" id="askForLogin" orientationModes="[Ti.UI.PORTRAIT]">
+		<View id="holeView">
+			<View id="titleView">
+				<Label id="title">ورود به سیستم</Label>
+			</View>
+			<View id="inputsContainer">
+				<TextField id="email" class="inputs"></TextField>
+				<TextField id="password" class="inputs"></TextField>
+			</View>
+			<View id="signInBtn" onClick="login">
+				<Label id="sidnInLbl">ورود</Label>
+			</View>
+			<View id="footerView">
+				<Label id="askLbl">حساب کاربری ندارید؟</Label>
+				<Label id="signUpLbl" onClick="signUpLblClick">ثبت نام</Label>
+			</View>
+		</View>
+	</Window>
+</Alloy>

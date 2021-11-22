@@ -1,0 +1,29 @@
+<Alloy>
+	<Window title="انتخاب استاد راهنما" orientationModes="Ti.UI.PORTRAIT" onOpen="getTeacherInfo" id="teacherHome">
+		<Menu>
+			<MenuItem id="seconditm" title="خروج" onClick="logoutMenow"></MenuItem>
+		</Menu>
+		<View id="holeView">
+			<View id="topView">
+				<Label id="myInfoLbl">اطلاعات من:</Label>
+				<View id="line"></View>
+				<View class="nameC" id="nameCont">
+				</View>
+				<View class="nameC" id="last_nameCont">
+				</View>
+				<View class="nameC" id="idCont">
+				</View>
+				<View class="nameC" id="departmentC">
+				</View>
+				<View backgroundColor="transparent" height="7dp"></View>
+			</View>
+			<ScrollView id="myScroll">
+				<Label id="myInfoLbl">درخواست ها: </Label>
+				<View id="line"></View>
+			</ScrollView>
+		</View>
+		<!-- <Menu>
+			<MenuItem id="seconditm" title="خروج" onClick="logoutMenow"></MenuItem>
+		</Menu> -->
+	</Window>
+</Alloy>

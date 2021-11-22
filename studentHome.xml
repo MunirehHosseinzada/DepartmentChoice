@@ -1,0 +1,54 @@
+<Alloy>
+	<Window title="انتخاب استاد راهنما" id="studentHome" onOpen="getStudentInfo" orientationModes="Ti.UI.PORTRAIT">
+		<View id="holeView">
+			<View id="topView">
+				<Label id="myInfoLbl">اطلاعات من:</Label>
+				<View id="line"></View>
+				<View class="nameC" id="nameCont">
+				</View>
+				<View class="nameC" id="last_nameCont">
+				</View>
+				<View class="nameC" id="idCont">
+				</View>
+				<View class="nameC" id="departmentC">
+				</View>
+				<View backgroundColor="transparent" height="7dp"></View>
+			</View>
+			<View id="choicesView">
+				<Label id="myInfoLbl">انتخاب های من:</Label>
+				<View id="line"></View>
+				<View id="radioButtonC">
+					<View class="innerC" id="rightOne">
+						<Label id="allT">تمام اساتید</Label>
+						<View class="rBtn" id="allTeachers" onClick="allTActiveate"></View>
+					</View>
+					<View class="innerC">
+						<Label id="sT">اساتید دیپارتمنت مربوطه</Label>
+						<View class="rBtn" id="someTeachers" onClick="someTActivate"></View>
+					</View>
+				</View>
+				<View id="bottomView">
+					<View class="choiceOuter" onClick="loadTeachers" id="first">
+						<Label class="mylbl" id="firstLabel">انتخاب اول</Label>
+						<Label class="icons">keyboard_arrow_down</Label>
+					</View>
+					<View class="choiceOuter" onClick="loadSecondTeachers" id="second">
+						<Label class="mylbl" id="secondLable">انتخاب دوم</Label>
+						<Label class="icons">keyboard_arrow_down</Label>
+					</View>
+					<View class="choiceOuter" onClick="loadThirdTeachers" id="third">
+						<Label class="mylbl" id="thirdLabel">انتخاب سوم</Label>
+						<Label class="icons">keyboard_arrow_down</Label>
+					</View>
+					<View backgroundColor="transparent" height="17dp"></View>
+				</View>
+			</View>
+			<View id="submitBtn" onClick="submit">
+				<Label color="white">ارسال</Label>
+			</View>
+		</View>
+		<Menu>
+			<MenuItem id="itm" title="خروج" onClick="logoutMe"></MenuItem>
+		</Menu>
+	</Window>
+</Alloy>
